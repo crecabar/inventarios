@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nZl7XO9B0aIUvadf9DPAfyWLUa05lxqiCYKB1AlXF/6Ujia7XBHNplWoN/65TUo3Ai3eLFcqulz/jxrkwgHjPQ==",
+  "dgSpecHash": "EZm2zLKc0RR2U3fCA0XUyjqVIS1rZgKvXTC+93mhep8C4DZ6kpcuzkzKkVKs7V/hZnHn7QlOpUVTbO1A3mGuLQ==",
   "success": true,
   "projectFilePath": "/Users/crecabarren/repos/github.com/crecabar/Inventario.net/Inventario.net/Inventario.net.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,8 @@
     "/Users/crecabarren/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
     "/Users/crecabarren/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/crecabarren/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/crecabarren/.nuget/packages/mysqlconnector/2.2.6/mysqlconnector.2.2.6.nupkg.sha512",
+    "/Users/crecabarren/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "/Users/crecabarren/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.4/sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "/Users/crecabarren/.nuget/packages/sqlitepclraw.core/2.1.4/sqlitepclraw.core.2.1.4.nupkg.sha512",
     "/Users/crecabarren/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.4/sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
