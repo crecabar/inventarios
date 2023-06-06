@@ -1,0 +1,14 @@
+﻿{
+  "ConnectionStrings": {
+    //"DefaultConnection": "DataSource=app.db;Cache=Shared"
+    "Default": "Server=YOUR_HOST;Port=PORT;User ID=YOUR_USER;Password=YOUR_PASSWORD;Database=YOUR_DB"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
