@@ -10,6 +10,12 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
-    public DbSet<Inventario.net.Models.Product> Product { get; set; } = default!;
+    public DbSet<Product> Product { get; set; } = default!;
+
+    public DbSet<Inventory> Inventory { get; set; } = default!;
+
+    public DbSet<InventoryProduct> InventoryProduct { get; set; } = default!;
+
+    public DbSet<Inventario.net.Models.ProductCategory> ProductCategory { get; set; } = default!;
 }
 

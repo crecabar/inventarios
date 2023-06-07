@@ -6,14 +6,17 @@ using Inventario.net.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("Default") ?? throw new InvalidOperationException("Connection string 'Default' not found.");
+var connectionString = builder.Configuration.GetConnectionString("MySql") ?? 
+    throw new InvalidOperationException(message: "Connection string 'MySql' not found.");
 //builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //    options.UseSqlite(connectionString));
 //builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDbContext<ApplicationDbContext>(
     options => options
-        .UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+        .UseMySql(
+            connectionString, 
+            ServerVersion.AutoDetect(connectionString)));
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
